@@ -7,14 +7,12 @@
 }
 
 body {
-    font-family: 'Merriweather', 'Palatino', 'Georgia', serif;
+    font-family:'Roboto Slab', 'Playfair Display', 'Georgia', serif;
     background: #fff;
+    color: #3D3832;
     margin: 0;
   }
 
-h1, h2 {
-    font-family:'Merriweather', 'Palatino', 'Georgia', serif;
-}
 h1 {
   font-size: 3rem;
   text-align: center;
