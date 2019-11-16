@@ -1,0 +1,48 @@
+#firstmap {
+  height: 500px;
+  width: 100%;
+  margin-top: 3em;
+  padding: 2em;
+  border: 2px solid #999;
+}
+
+body {
+    font-family: 'Merriweather', 'Palatino', 'Georgia', serif;
+    background: #fff;
+    margin: 0;
+  }
+
+h1, h2 {
+    font-family:'Merriweather', 'Palatino', 'Georgia', serif;
+}
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #BFAB93;
+}
+p {
+  max-width: 35rem;
+  margin: auto;
+  padding: 0 1rem 1rem 1rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+footer {
+padding: 1rem;
+}
+
+@media screen and (max-width: 680px) {
+
+    #firstmap {
+      height: 450px;
+    }
+
+    p {
+        padding: 1.5rem;
+    }
+
+    h1 {
+    padding: 0.5rem;
+  }
+}
